@@ -1,0 +1,25 @@
+{
+    "@context": "http://schema.org/",
+    "@graph": [{
+        "@type": "Dataset",
+        "measurementTechnique": "word-count",
+        "variableMeasured": [{
+                "@type": "PropertyValue",
+                "name": "n-words",
+                "value": "5"
+            },
+            {
+                "@type": "PropertyValue",
+                "name": "n-monosyllabic-words",
+                "value": "4"
+            },
+            {
+                "@type": "PropertyValue",
+                "name": "n-polysyllabic-words",
+                "value": "1"
+            }
+        ]
+    }],
+    "@type": "Document",
+    "text": "This is some example text"
+}

@@ -31,5 +31,7 @@ def main(nmo, jsonld, url):
 
     return jsonld
     
-
+#The bind function converts your plugin into a server. This means that all you need to worry 
+# about is the "main" function and the nanowire-plugin module will handle all of the nanowire
+# specific requirements 
 bind(main, "plugin-template")
