@@ -1,0 +1,20 @@
+{
+    "name": "example-plugin",
+    "description": "This is an example nanowire.json. This will be used to turn your plugin into a component of nanowire. Please note that this may be subject to future change.",
+    "image": "docker.spotlightdata.co.uk/plugins/example_plugin:dev",
+    "author": "Your name here",
+    "email": "test@example.co.uk",
+    "inputs": [
+        "source"
+    ],
+    "outputs": [
+        "plugin"
+    ],
+    "cmd": [
+        "python3",
+        "example_plugin_template.py"
+    ],
+    "env": {},
+    "cpu": "10m",
+    "memory": "100M"
+}

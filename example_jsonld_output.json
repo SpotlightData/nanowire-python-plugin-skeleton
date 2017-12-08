@@ -1,0 +1,38 @@
+{
+    "@context": "http://schema.org/",
+    "@graph": [{
+        "@type": "Dataset",
+        "measurementTechnique": "basic-image-classification",
+        "variableMeasured": [{
+            "@type": "PropertyValue",
+            "name": "Finn.jpg",
+            "valueReference": [{
+                    "@type": "PropertyValue",
+                    "name": "Cardigan, Cardigan Welsh corgi",
+                    "value": "0.762384295463562"
+                },
+                {
+                    "@type": "PropertyValue",
+                    "name": "kelpie",
+                    "value": "0.08004732429981232"
+                },
+                {
+                    "@type": "PropertyValue",
+                    "name": "Border collie",
+                    "value": "0.07734571397304535"
+                },
+                {
+                    "@type": "PropertyValue",
+                    "name": "collie",
+                    "value": "0.01929723657667637"
+                },
+                {
+                    "@type": "PropertyValue",
+                    "name": "Pembroke, Pembroke Welsh corgi",
+                    "value": "0.0036715795285999775"
+                }
+            ]
+        }]
+    }],
+    "@type": "ImageObject"
+}
