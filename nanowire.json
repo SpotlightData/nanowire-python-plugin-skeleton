@@ -4,6 +4,7 @@
     "image": "docker.spotlightdata.co.uk/plugins/example_plugin:dev",
     "author": "Your name here",
     "email": "test@example.co.uk",
+    "types": ["SINGLE_FILE"],
     "inputs": [
         "source"
     ],
