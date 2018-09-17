@@ -9,7 +9,7 @@ from nanowire_plugin.single_file_tools import bind
 # The function which the plugin is bound to. This function will be run on the
 # inputs from the pipeline.
 
-# nmo is used for backend tasks and should only be usefull to a few advanced
+# metadata is used for backend tasks and should only be useful to a few advanced
 # users
 
 # jsonld is the object most plugin developers will be interested in as it contains
@@ -23,7 +23,7 @@ from nanowire_plugin.single_file_tools import bind
 # grab the image and then perform their processing
 
 
-def main(nmo, jsonld, url):
+def main(metadata, jsonld, url):
 
     ######################
     ### YOUR CODE HERE ###
@@ -35,4 +35,4 @@ def main(nmo, jsonld, url):
 # The bind function converts your plugin into a server. This means that all you need to worry
 # about is the "main" function and the nanowire-plugin module will handle all of the nanowire
 # specific requirements
-bind(main, "plugin-template")
+bind(main)
