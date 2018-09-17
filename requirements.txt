@@ -1,3 +1,1 @@
-minio
-pika
-nanowire-plugin==0.9.32
+nanowire-plugin==0.12.53
